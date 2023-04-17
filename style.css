@@ -397,7 +397,7 @@ h1 {
     border: none;
     cursor: pointer;
     font-size: 1.5rem;
-    margin: 1%;
+    /* margin: 1%; */
 }
 
 .carousel-prev {
@@ -526,7 +526,7 @@ h1 {
     .pat-02 {
         color: #2384E4;
         top: 60%;
-        left: 200px;
+        left: 40%;
         margin-bottom: 100px;
     }
 
@@ -534,6 +534,8 @@ h1 {
         top: 5%;
         left: 7%;
         opacity: 30%;
+        font-size: 30px;
+        line-height: 42px;
     }
 
     .pat-creative {
@@ -541,6 +543,8 @@ h1 {
         top: 75%;
         left: 7%;
         opacity: 70%;
+        font-size: 30px;
+        line-height: 42px;
     }
 
     .list-services {
