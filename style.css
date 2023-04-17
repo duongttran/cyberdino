@@ -7,8 +7,6 @@ body {
 }
 
 
-
-
 /* TYPOGRAPHY */
 h1,
 h2,
@@ -57,12 +55,19 @@ p {
 }
 
 /* Custom header */
+.navbar {
+    padding: .1rem 1rem!important;
+}
 
 /* Banner css here */
 .cyber-dino-banner {
+    margin: 0 auto;
     position: relative;
     height: 700px;
     background: linear-gradient(60deg, #1B9DE2 0% 70%, #E1FAFF 100%);
+    /* background-image: url('image/bgr.svg');
+    background-repeat: no-repeat;
+    background-size: cover; */
 
 }
 
@@ -91,12 +96,12 @@ p {
 
 .cyber-dino-banner .banner-content {
     margin-left: 10%;
-    padding-top: 15%;
+    padding-top: 10%;
     color: white;
 }
 
 .cyber-dino-banner .banner-content .description {
-    margin-left: 100px;
+    margin-left: 5%;
     margin-top: 20px;
     font-weight: 400;
     font-size: 24px;
@@ -127,16 +132,17 @@ p {
 }
 
 .about-us-our-mission {
-    padding: 115px 0px;
+    padding: 10% 0px;
 }
 
 .about-us-our-values {
-    margin: 65px 0px 100px;
+    margin: 65px 0px 150px;
 }
 
 .our-mission-text {
-    width: 60%;
+    width: 75%;
 }
+
 
 .our-mission-img img {
     width: 100%;
@@ -289,7 +295,7 @@ p {
     line-height: 64px;
     font-weight: 700;
     color: #00CFFF;
-    opacity: 10%;
+    opacity: 15%;
     z-index: -1;
 
     position: absolute;
@@ -300,7 +306,7 @@ p {
 .pat-02 {
     color: #2384E4;
     top: 70%;
-    left: 20%;
+    left: 10%;
 }
 
 .pat-logical {
@@ -322,7 +328,7 @@ p {
 }
 
 .cyber-dino-logo {
-    height: 40px;
+    height: 50px;
 }
 
 /* .cyber-dino-header {
@@ -332,23 +338,32 @@ p {
 .cyber-dino-banner .cyber-big #cb-deco-big {
     position: relative;
     top: 50px;
-    left: 10%;
+    /* left: 10%; */
+    /* mix-blend-mode:color-dodge; */
     mix-blend-mode: screen;
 }
 
-.cyber-dino-banner .cyber-big #cb-deco-small {
-    position: absolute;
-    width: 80%;
-    top: 20%;
-    left: 60%;
-    mix-blend-mode: screen;
-    opacity: 20%;
+.cyber-dino-banner .cyber-big #cb-deco-big img{
+    width: 100%;
+    height: auto;
 }
+
+/* .cyber-dino-banner .cyber-big #cb-deco-small {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 10%;
+    left: 40%;
+    mix-blend-mode: color-dodge;
+    opacity: 20%;
+} */
 
 .cyber-small img {
     position: relative;
-    left: 50px;
-    opacity: 50%;
+    top: 75px;
+    left: 30%;
+    /* opacity: 50%; */
+    mix-blend-mode: screen;
 }
 
 h1 {
@@ -382,7 +397,7 @@ h1 {
     border: none;
     cursor: pointer;
     font-size: 1.5rem;
-    margin: 2%;
+    margin: 1%;
 }
 
 .carousel-prev {
@@ -398,7 +413,7 @@ h1 {
 /* MOBILE */
 @media (max-width: 768px) {
     .cyber-small {
-        width: 50%;
+        width: 40%;
     }
 
     /* Banner css here */
@@ -423,7 +438,8 @@ h1 {
     }
 
     .cyber-dino-banner .cyber-big #cb-deco-big {
-        width: 65%;
+        width: 80%;
+        height: auto;
     }
 
     .cyber-dino-banner .cyber-big #cb-deco-small {
@@ -436,7 +452,7 @@ h1 {
 
     .cyber-dino-banner .banner-content {
         margin-left: 0px;
-        padding-top: 15%;
+        padding-top: 10%;
     }
 
     .banner-content img {
@@ -445,7 +461,7 @@ h1 {
 
     .cyber-dino-banner .cyber-small img {
         position: relative;
-        width: 100%;
+        width: 80%;
         opacity: 80%;
     }
 
@@ -511,6 +527,7 @@ h1 {
         color: #2384E4;
         top: 60%;
         left: 200px;
+        margin-bottom: 100px;
     }
 
     .pat-logical {
