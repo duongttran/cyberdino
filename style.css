@@ -337,7 +337,7 @@ p {
 
 .cyber-dino-banner .cyber-big #cb-deco-big {
     position: relative;
-    top: 30px;
+    top: 40px;
     /* left: 10%; */
     /* mix-blend-mode:color-dodge; */
     mix-blend-mode: screen;
@@ -477,7 +477,7 @@ h1 {
 
     #cb-deco-big {
         position: relative;
-        top: 50px;
+        top: 40px;
         left: 10%;
         mix-blend-mode: screen;
     }
