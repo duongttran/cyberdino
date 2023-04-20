@@ -337,7 +337,7 @@ p {
 
 .cyber-dino-banner .cyber-big #cb-deco-big {
     position: relative;
-    top: 65px;
+    top: 80px;
     /* left: 10%; */
     /* mix-blend-mode:color-dodge; */
     mix-blend-mode: screen;
@@ -420,8 +420,7 @@ h1 {
     .cyber-dino-banner {
         position: relative;
         width: 100%;
-        height: 650px;
-
+        height: 670px;
     }
 
     .cyber-dino-banner .cyber-small {
@@ -536,6 +535,7 @@ h1 {
         opacity: 30%;
         font-size: 30px;
         line-height: 42px;
+        padding-top: 2%; 
     }
 
     .pat-creative {
@@ -561,7 +561,7 @@ h1 {
     .services-col {
         display: flex;
         justify-content: center;
-
+        padding-top: 10%;
     }
 
     /* .services-col:nth-child(2n+1) {
@@ -601,7 +601,7 @@ h1 {
     .features-description {
         width: 100%;
         text-align: center;
-        padding: 5% 10%;
+        padding: 5% 15%;
     }
 
     .features-description p {
