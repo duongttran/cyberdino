@@ -322,7 +322,7 @@ p {
 
 .pat-creative {
     color: #FFE49D;
-    top: 67%;
+    top: 65%;
     left: 62%;
     opacity: 80%;
 }
@@ -540,7 +540,7 @@ h1 {
 
     .pat-creative {
         color: #FFE49D;
-        top: 75%;
+        top: 80%;
         left: 7%;
         opacity: 70%;
         font-size: 30px;
@@ -548,7 +548,7 @@ h1 {
     }
 
     .list-services {
-        margin-top: 20%;
+        margin-top: 25%;
         margin-bottom: 40%;
         width: 100%;
         /* max-width: 740px;
