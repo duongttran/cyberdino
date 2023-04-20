@@ -535,7 +535,7 @@ h1 {
         opacity: 30%;
         font-size: 30px;
         line-height: 42px;
-        padding-top: 2%; 
+        padding-top: 2%;
     }
 
     .pat-creative {
@@ -611,8 +611,8 @@ h1 {
     }
 
     .fea-deco {
-        top: 70%;
-        left: 30%;
+        top: 0%;
+        left: 26%;
     }
 
     .contact-description p {
